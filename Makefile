@@ -6,16 +6,15 @@ CCFLAGS = -std=c++17 -Wall -Wno-deprecated -Werror=return-type -g
 
 all: $(EXECS)
 
-tester: $(OBJS)
-	$(CC) $(CCFLAGS) $^ -o $@
-
-%.o: %.cpp *.h	
+%.o: %.cpp %.h	
 	$(CC) $(CCFLAGS) -c $<
 
 %.o: %.cpp 
 	$(CC) $(CCFLAGS) -c $<			
 
+tester: $(OBJS)
+	$(CC) $(CCFLAGS) $^ -o $@
+
 clean: 
 	/bin/rm -f a.out $(OBJS) $(EXECS)
-
 
