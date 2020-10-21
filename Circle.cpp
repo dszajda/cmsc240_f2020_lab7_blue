@@ -1,17 +1,16 @@
 using namespace std;
 #include "Circle.h"
 #include "Shape.h"
+
 #include <iostream>
 #include <cmath>
-using namespace std;
 
 Circle::Circle() : Shape("Circle"), radius{0.0} { 
 	cout << "In Circle default constructor" << endl;
 }
 
 
-Circle::Circle(string name, double radVal): Shape(name), radius(radVal)
-{
+Circle::Circle(string name, double radVal): Shape(name), radius(radVal){
 	cout << "In Circle typical-use constructor" << endl;
 }		
 

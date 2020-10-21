@@ -1,7 +1,8 @@
-#ifndef __SHAPE_H__
-#define __SHAPE_H__
+#ifndef __TRIANGLE_H__
+#define __TRIANGLE_H__
 
 #include <string>
+#include "Shape.h"
 using namespace std;
 
 class Triangle: public Shape

@@ -1,8 +1,6 @@
-#ifndef __TRIANGLE_CPP__
-#define __TRIANGLE_CPP__
 using namespace std;
 
-#include "Shape.h"
+#include "Triangle.h"
 #include <iostream>
 
 Triangle::Triangle() : Shape(), base(0.0), height(0.0){
