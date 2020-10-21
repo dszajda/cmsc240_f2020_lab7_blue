@@ -1,5 +1,8 @@
 #include <iostream>
 #include "Shape.h"
+#include "Circle.h"
+#include "Triangle.h"
+#include "Rectangle.h"
 
 using namespace std;
 

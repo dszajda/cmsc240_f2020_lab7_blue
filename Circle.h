@@ -1,3 +1,5 @@
+#ifndef __SHAPE_H__
+#define __SHAPE_H__
 #include <string>
 using namespace std; 
 
@@ -12,4 +14,4 @@ class Circle: public Shape
                 ~Circle();
 		double getArea();
                 void print;
-};
+}
