@@ -2,6 +2,7 @@
 #define __RECTANGLE_H__
 
 #include <string>
+#include "Shape.h"
 
 class Rectangle : public Shape {
     private:
