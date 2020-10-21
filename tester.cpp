@@ -14,6 +14,11 @@ void printArea(Shape &fig) {
 
 int main() {
 
+        cout << "======== testing shape ==========" << endl;
+        Shape figure("DefaultName");
+        figure.print();
+        cout << figure.getArea() << endl;
+
     //Testing Triangle
         cout << "========== Testing Triangle ===========" >> endl;
         Triangle t1 = new Triangle("Triangle 1", 4, 4 );   //testing constructor
