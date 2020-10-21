@@ -6,14 +6,14 @@
 
 class Rectangle : public Shape {
     private:
-        double width;
-        double height;
+        double rectWidth;
+        double rectHeight;
     public:
         Rectangle();
         Rectangle(std::string name, double width, double height);
         ~Rectangle();
         double getArea();
-        void print;
+        void print();
 };
 
 #endif
