@@ -25,6 +25,5 @@ void Circle::print()
 {
 	Shape::print();		//print name
 	cout << "radius = " << this->radius
-	<< "area = " << this.getArea() << endl;	
+	<< ", area = " << this.getArea() << endl;	
 }
-
