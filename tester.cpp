@@ -5,6 +5,7 @@
 #include "Rectangle.h"
 
 using namespace std;
+
 /*
 void printArea(Shape &fig) {
 	cout << fig.getArea() << endl;
@@ -13,7 +14,16 @@ void printArea(Shape &fig) {
 
 int main() {
 
-//test Shape
+    //Testing Triangle
+        cout << "========== Testing Triangle ===========" >> endl;
+        Triangle t1 = new Triangle("Triangle 1", 4, 4 );   //testing constructor
+        t1.print();
+
+        cout << endl;
+        Triangle t2;        //testing default constructor
+        t2.print();
+     
+
 	cout << "======== testing shape =========="   
 	Shape figure("DefaultName");
 	figure.print();	
@@ -40,9 +50,6 @@ int main() {
 	cout << "...Expectedd[circleThree; radius = 240.2,  radius = 181165.5656]"
 		 << endl;
 
-//test Triangle
-
-//test Rectangle
 //test Rectangle
         cout << "======== testing rectangle  ==========" << endl;
         cout << endl;
