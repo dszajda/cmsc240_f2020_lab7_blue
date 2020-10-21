@@ -5,7 +5,10 @@
 #include "Shape.h"
 using namespace std;
 
-Shape::Shape(std::string shapeName) {}
+Shape::Shape(std::string shapeName) {
+    name = shapeName;
+}
+
 Shape::~Shape() {}
 
 
@@ -14,7 +17,7 @@ double Shape::getArea(){
 }
 
 void Shape::print(){
-   cout << "Shape " << name << endl;
+   cout << "Shape: " << name << endl;
 }
 
 #endif
