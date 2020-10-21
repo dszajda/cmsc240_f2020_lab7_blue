@@ -44,7 +44,6 @@ int main() {
 	cout << "...Expectedd[circleThree; radius = 240.2,  radius = 181165.5656]"
 		 << endl;
 
-//test Triangle
 
 //test Rectangle
 	cout << "======== testing circle  =========="
