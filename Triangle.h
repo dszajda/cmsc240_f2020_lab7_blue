@@ -8,8 +8,8 @@ using namespace std;
 class Triangle: public Shape
 {
     private:
-      double baseVal;
-      double heightVal;
+      double base;
+      double height;
 
     public:
       Triangle();

@@ -14,37 +14,31 @@ void printArea(Shape &fig) {
 
 int main() {
 
-        cout << "======== testing shape ==========" << endl;
+        cout << "-------- testing shape --------" << endl;
         Shape figure("DefaultName");
         figure.print();
         cout << figure.getArea() << endl;
 
-    //Testing Triangle
-        cout << "========== Testing Triangle ===========" >> endl;
-        Triangle t1 = new Triangle("Triangle 1", 4, 4 );   //testing constructor
+//Testing Triangle
+        cout << "-------- Testing Triangle --------" << endl;
+        Triangle t1("Triangle 1", 4, 4 );   //testing constructor
         t1.print();
 
         cout << endl;
         Triangle t2;        //testing default constructor
         t2.print();
      
-
-	cout << "======== testing shape =========="   
-	Shape figure("DefaultName");
-	figure.print();	
-   	cout << figure.getArea() << endl;
-
 //test circle
-	cout << "======== testing circle  =========="
+	cout << "-------- testing circle --------" << endl;
 	Circle c1;		//default constructor
 	Circle c2("circleTwo" , 0.02);	//constructor
 	Circle c3("circleThree" , 240.2); //constructor
 	
 	//test print for all circles (simultaneously assess for successful
 		// construction and successful getArea(). 
-	cout << "first circle (default constructor)" << endl;
+	cout << "first circle (default constructor):" << endl;
 	c1.print(); 
-	cout << "...Expected[null, null]" << endl;
+	cout << "...Expected[Circle, 0, 0]" << endl;
 	
 	cout << "second circle (constructor)" << endl;
 	c2.print();
@@ -56,7 +50,7 @@ int main() {
 		 << endl;
 
 //test Rectangle
-        cout << "======== testing rectangle  ==========" << endl;
+        cout << "-------- testing rectangle --------=" << endl;
         cout << endl;
         cout << "Testing Rectangle Default Constructor: " << endl;
         Rectangle r1;
